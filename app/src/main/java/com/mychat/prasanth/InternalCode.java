@@ -15,4 +15,8 @@ public class InternalCode {
     public InternalCode(){
 
     }
+
+    public String getmInternalCode() {
+        return mInternalCode;
+    }
 }
