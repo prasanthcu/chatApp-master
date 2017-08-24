@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/enterCodeTitle"
+        android:layout_width="144dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pairButton"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="Pair"
+        android:layout_marginTop="128dp"
+        android:layout_below="@+id/enterCode"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/enterCode"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="97dp"
+        android:layout_below="@+id/enterCodeTitle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
